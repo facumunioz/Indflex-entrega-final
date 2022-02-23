@@ -1,0 +1,27 @@
+/* mixin */
+/* maps */
+/* Extend */
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/*header{
+    background-color: $colorprincipal;
+    color: $colorsegundario
+}
+
+body{
+    background-color: $colorprincipal;
+} */
+body .secctioncontacto {
+  color: #484c54;
+  height: 110vh;
+  border-radius: 30px;
+  padding: 10vh;
+  padding-left: 10px;
+  box-shadow: 12px -20px 46px -26px rgba(33, 33, 33, 0.66);
+  -webkit-box-shadow: 12px -20px 46px -26px rgba(33, 33, 33, 0.66);
+  -moz-box-shadow: 12px -20px 46px -26px rgba(33, 33, 33, 0.66); }
