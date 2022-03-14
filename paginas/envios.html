@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../style.css">
 
     <!--Scss-->
-    <link rel="stylesheet" href="../scss/style.scss">
+    <link rel="stylesheet" href="../css/main.css">
 
 
 <title>Indflex | Envios</title>
@@ -49,57 +49,89 @@
             </div>
           </nav>
     </header>
-    <div>Envíos</div>
-    <Section>
-        <p>IndFlex es una pyme que fabrica etiquets autoadhesivas de alto rendimiento.
-            donde el asesoramiento al cliente se toma como prioridad.
-            ¿Estás listo para realizar tu primer pedido?</p>
-            <a href="./nosotros.html" > Mas info </a>
-        
-   </Section>
+    
+    <h1 class="titulo_nosotros">Envíos</h1>
+
+   <article class="background_envios">
+     <Section class="envios">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.39707532423!2d-58.57338494756603!3d-34.615461116377574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1646067612597!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         <div>
+             <p>🚚 Envios a todo el país</p>
+             <p>💵 Ventas por mayor</p>
+         </div>
+         <a class="boton" href="https://web.whatsapp.com/" > Realizar pedido </a>
+     </Section>
+
+     <div class="grid_medidas02">
+         <div class="flex_medidas">
+             <p>Envios gratis a todo el pais</p>
+             <img src="../images/iconos-07.png" alt="Envios gratis a todo el pais" class="img-fluid">
+          </div>
+          <div class="flex_medidas">
+             <p>Atencion personalizada 24hs</p>
+             <img src="../images/iconos-08.png" alt="Atención personalizada 24hs" class="img-fluid">
+           </div>
+          <div class="flex_medidas">
+             <p>Stock permanente</p>
+             <img src="../images/iconos-10.png" alt="Stock permanente" class="img-fluid">
+          </div>
+          <div class="flex_medidas">
+             <p>100% calidad</p>
+             <img src="../images/iconos-09.png" alt="Stock permanente" class="img-fluid">
+          </div>
+      </div>
+    </article>
+    <!--footer-->
     <footer>
-        <div class="divlogofooter">
-            <a href="index.html"><img src="../images/Logo-02.svg" alt="Logo footer" class="logofooter"></a>
+        <div class="padre_logo">
+            <a href="index.html">
+                <img class="logo_footer" src="../images/Logo-02.svg" alt="Logo footer">
+            </a>
         </div>
-        <div class="divelementosfooter">
-            <ol class="nav-footer">
+        <div class="">
+            <ol>
                 <h2>Menu Principal</h2>
                 <li>
-                    <a href="index.html" class="separacion-footer"> Inicio </a>
+                    <a href="index.html" class=""> Inicio </a>
                 </li>
                 <li>
-                    <a href="../paginas/nosotros.html" class="separacion-footer"> Nosotros </a>
+                    <a href="./paginas/nosotros.html" class="nav_footer"> Nosotros </a>
                 </li>
                 <li>
-                    <a href="../paginas/envios.html" class="separacion-footer"> Envios </a>
+                    <a href="./paginas/envios.html" class="nav_footer"> Envios </a>
                 </li>
                 <li>
-                    <a href="../paginas/medidas.html" class="separacion-footer"> Medidas </a>
+                    <a href="./paginas/medidas.html" class="nav_footer"> Medidas </a>
                 </li>
                 <li>
-                    <a href="../paginas/contacto.html" class="separacion-footer"> Contacto </a>
+                    <a href="./paginas/contacto.html" class="nav_footer"> Contacto </a>
                 </li>
             </ol>
         </div>
-        <div class="iconosfooter">
-            <h3 class="titulofooterredes">Redes Sociales</h3>
-            <ol class="icono-lista">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img class="icono-footer" src="../images/Redes Sociales-07.png" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img class="icono-footer" src="../images/Redes Sociales-09.png" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img class="icono-footer" src="../images/Redes Sociales-08.png" alt="WhatsApp">
-                </a>
-            </ol>
+        <div>
+            <h3 class="">Redes Sociales</h3>
+            <ul class="ul_flex">
+              <li>
+                  <a href="https://www.facebook.com/" target="_blank">
+                     <img class="icono_footer" src="../images/redes-sociales01.png" alt="Facebook">
+                  </a>
+             </li>
+              <li>
+                 <a href="https://www.instagram.com/" target="_blank">
+                     <img class="icono_footer" src="../images/redes-sociales02.png" alt="Instagram">
+                 </a>
+              </li>
+              <li>
+                 <a href="https://web.whatsapp.com/" target="_blank">
+                     <img class="icono_footer" src="../images/redes-sociales03.png" alt="WhatsApp">
+                 </a>
+              </li>
+            </ul>
         </div>
     </footer>
+
+    <!--Boostrap--> 
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
